@@ -1,80 +1,115 @@
 export const developer = {
-  name: 'Alex Morgan',
-  role: 'Backend & Frontend Engineer',
-  location: 'Remote (UTC+1)',
+  name: 'Yann Cedrick Hallage',
+  role: 'Développeur full stack',
+  location: 'Abidjan, Palmeraie — Côte d’Ivoire',
   summary: [
-    'Full stack developer focused on scalable SaaS products.',
-    'Backend-heavy profile with strong React and TypeScript expertise.',
-    'Builds reliable APIs, clean UI architecture, and fast developer workflows.',
+    'Développeur full stack avec expérience en développement d’applications web et en support informatique en environnement institutionnel. Habitué à travailler avec des utilisateurs métiers, à maintenir des applications en production et à assurer l’assistance technique niveau 1.',
+    'Rigoureux, orienté qualité et service. Né le 30/06/2001 — Ivoirien.',
   ],
-  stack: ['TypeScript', 'Node.js', 'React', 'PostgreSQL'],
+  stack: ['React', 'NestJS', 'TypeScript', 'Node.js', 'PostgreSQL', 'Spring Boot'],
 }
 
 export const skills = {
-  frontend: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Vite'],
-  backend: ['Node.js', 'NestJS', 'Express', 'Prisma', 'REST API'],
-  database: ['PostgreSQL', 'MongoDB', 'Supabase', 'Redis'],
-  devops: ['Docker', 'NGINX', 'Linux', 'CI/CD', 'Vercel'],
+  frontend: ['React', 'Angular', 'TypeScript'],
+  backend: ['Node.js', 'NestJS', 'Java', 'Spring Boot'],
+  database: ['MySQL', 'PostgreSQL', 'MongoDB'],
+  devops: [
+    'Docker',
+    'GitHub',
+    'AWS',
+    'Supabase',
+    'Vercel',
+    'Kubernetes',
+    'Render',
+    'Firebase',
+  ],
 }
 
 export const tools = [
-  'VS Code',
-  'Git',
-  'Postman',
   'Docker',
-  'Figma',
+  'GitHub',
+  'AWS',
   'Supabase',
-  'Railway',
   'Vercel',
+  'Kubernetes',
+  'Render',
+  'Firebase',
 ]
 
 export const projects = [
   {
-    name: 'SaaS Pricing Engine',
-    description: 'Advanced pricing calculator for agencies',
-    stack: ['React', 'Node.js', 'Supabase'],
+    name: 'Nuum',
+    description:
+      'Solution tout-en-un dédiée aux entreprises ivoiriennes pour piloter leurs opérations quotidiennes et accélérer leur croissance.',
+    stack: ['React', 'TypeScript', 'Node.js'],
     status: 'production',
+    url: 'https://www.nuum-ci.com',
   },
   {
-    name: 'Payments API',
-    description: 'Mobile money payments infrastructure',
-    stack: ['NestJS', 'Prisma', 'PostgreSQL'],
+    name: 'Business Center Corporation (BCC Shop)',
+    description:
+      'Plateforme e-commerce proposant une large gamme de produits électroniques.',
+    stack: ['React', 'Node.js'],
     status: 'production',
-  },
-  {
-    name: 'Team Analytics Dashboard',
-    description: 'KPI workspace with scheduled reporting and alerts',
-    stack: ['Next.js', 'TypeScript', 'Redis'],
-    status: 'in-progress',
+    url: 'https://bccshop-ci.com/',
   },
 ]
 
 export const experience = [
   {
-    company: 'CloudForge Labs',
-    role: 'Senior Full Stack Developer',
-    period: '2022 - Present',
+    company: 'Acredi-Group — Angré, Djorogobité 1',
+    role: 'Développeur full stack',
+    period: '01/2025 — Présent',
     highlights: [
-      'Designed a modular backend handling 4M+ API requests/day.',
-      'Led migration from monolith to service-oriented architecture.',
-      'Reduced deployment time by 60% with CI/CD improvements.',
+      'Application des bonnes pratiques de logique métier.',
+      'Développement d’API, logique métier et intégrations avec les bases de données.',
+      'Analyse des besoins fonctionnels, développement d’API REST sécurisées, implémentation de la logique métier.',
     ],
   },
   {
-    company: 'PixelNorth Studio',
-    role: 'Full Stack Developer',
-    period: '2019 - 2022',
+    company: 'Assemblée nationale — Abidjan',
+    role: 'IT support',
+    period: '08/2023 — 10/2024',
     highlights: [
-      'Delivered white-label SaaS platforms for fintech clients.',
-      'Built reusable UI systems and typed API SDKs.',
-      'Implemented observability with logs, metrics, and alerting.',
+      'Diagnostic et résolution des incidents matériels et logiciels.',
+      'Configuration et déploiement de postes de travail.',
+      'Assistance aux utilisateurs sur les applications internes.',
     ],
+  },
+  {
+    company: 'Assemblée nationale de Côte d’Ivoire — Abidjan',
+    role: 'Stagiaire développement informatique',
+    period: '12/2022 — 06/2023',
+    highlights: [
+      'Conception d’applications web et développement d’interfaces pour la gestion du courrier des députés.',
+      'Conception et optimisation d’API.',
+      'Support informatique.',
+    ],
+  },
+  {
+    company: 'Université de Technologie d’Abidjan',
+    role: 'Licence informatique, option génie logiciel',
+    period: '10/2024 — 07/2025',
+    highlights: ['Formation en cours — Abidjan, Côte d’Ivoire.'],
+  },
+  {
+    company: 'Institut de technologies et spécialités (ITES) — Angre 2 Plateaux',
+    role: 'Brevet de technicien supérieur (BTS)',
+    period: '09/2021 — 07/2022',
+    highlights: [],
+  },
+  {
+    company: 'Coding for Employment — Banque Africaine de Développement',
+    role: 'Certificat Office 365',
+    period: '01/2024',
+    highlights: ['Formation proposée dans le cadre du programme Coding for Employment.'],
   },
 ]
 
 export const socials = {
-  email: 'alex.morgan.dev@mail.com',
-  github: 'https://github.com/alexmorgan-dev',
-  linkedin: 'https://linkedin.com/in/alexmorgan-dev',
-  website: 'https://alexmorgan.dev',
+  email: 'contact.yannhallage@gmail.com',
+  phone: '0747170370',
+  github: 'https://github.com/yannhallage',
+  linkedin: '',
+  website: 'https://www.nuum-ci.com',
 }
